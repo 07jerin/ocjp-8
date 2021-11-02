@@ -51,7 +51,7 @@ class FileThread implements Runnable {
 		this.fName = fName;
 	}
 
-	public void run () System.out.println(fName);}
+	public void run () { System.out.println(fName);}
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		ExecutorService executor = Executors.newCachedThreadPool();

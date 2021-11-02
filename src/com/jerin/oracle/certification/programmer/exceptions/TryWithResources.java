@@ -9,10 +9,10 @@ public class TryWithResources {
 	// method
 	public static void declaringAutoclosable() throws IOException {
 		// Try with resources does not need catch
-		BufferedReader rd;
-		try ( rd = new BufferedReader(null)) {
-			rd = new BufferedReader(null);
-		}
+//		BufferedReader rd;
+//		try ( rd = new BufferedReader(null)) {
+//			rd = new BufferedReader(null);
+//		}
 
 		try (BufferedReader rd = getReader()) {
 
