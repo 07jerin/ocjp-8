@@ -1,0 +1,6 @@
+Please use OTAC_ESCALATION for all OTAC cfds that we do (including the fluid escaltions) , going forward we need not use FLUID_ESCALATION. Even though we can still use this and it will be pulled to dasboard.
+
+For release specific targetted bugs we will be using 21C.2_OTAC_ESC for 21C.2 targetted bugs.
+
+PMG can clone the following JIRA to create bugs 
+
