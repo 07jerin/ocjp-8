@@ -58,9 +58,9 @@ public class SortCollectJoinGroup {
 		vals.add(4);
 		
 		List<Integer> sortedValsLessThan4 = vals.stream()
-			.filter(v -> v <4)
-			.sorted(Comparator.comparing(Integer :: intValue))
-			.collect(Collectors.toList());
+												.filter(v -> v < 4)
+												.sorted(Comparator.comparing(Integer::intValue))
+												.collect(Collectors.toList());
 		
 		System.out.println( " sortedValsLessThan4 : " + sortedValsLessThan4);
 		

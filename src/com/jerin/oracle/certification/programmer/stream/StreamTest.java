@@ -1,6 +1,7 @@
 package com.jerin.oracle.certification.programmer.stream;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -9,6 +10,9 @@ public class StreamTest {
 	
 	public static void main(String[] args) {
 		new StreamTest().test();
+		
+		int[] vals = {1,2,3};
+//		Arrays.stream(vals).asLongStream().sum()
 	}
 	
 	public static void staticTest() {
