@@ -26,8 +26,8 @@ public class Functions {
 	private static void unaryAndPrimitives() {
 		System.out.println();
 		IntToDoubleFunction i2d = i -> i * 1.3;
-		DoubleToIntFunction d2i = d -> (int) d;
 
+		DoubleToIntFunction d2i = d -> (int) d;
 		System.out.println(i2d.applyAsDouble(2));
 		System.out.println(d2i.applyAsInt(3.224));
 
